@@ -1,24 +1,18 @@
-"use strict";
+const numberOfFilms = +prompt('How many films have wached already?', '0'),
+      personalMoviesDB = {
+          count: numberOfFilms,
+          movies: {},
+          actors: {},
+          genres: [],
+          privat: false
+      };
 
+let a1 = prompt('One of the last wached films?', ''),
+    a2 = prompt('How much will his?', ''),
+    a3 = prompt('One of the last wached films?', ''),
+    a4 = prompt('How much will his?', '');
 
-// console.log(user1);
-// console.log(user2);
+personalMoviesDB.movies[a1] = a2;
+personalMoviesDB.movies[a3] = a4;
 
-const user1 = 'Alex';
-console.log(user1);
-{
-    var user2 = 'Vlad';
-    // console.log(user2);
-    console.log(user1);
-}
-
-console.log(user1);
-
-// console.log(user2);
-
-let obj = {
-    a: 1,
-    b: 'a'
-};
-
-console.log(obj['a'])
+console.log(personalMoviesDB);
