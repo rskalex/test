@@ -1,1 +1,11 @@
+.div{
+    transition-property: all;
+    transition-duration: 2s;
+}
 
+.text{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    line-height: 200px;
+}
